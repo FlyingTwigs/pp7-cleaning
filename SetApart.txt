@@ -1,0 +1,2443 @@
+application_info {
+  platform: PLATFORM_WINDOWS
+  platform_version {
+    major_version: 10
+    patch_version: 22621
+    build: "10.0.22621"
+  }
+  application: APPLICATION_PROPRESENTER
+  application_version {
+    major_version: 7
+    build: "7.0.0"
+  }
+}
+uuid {
+  string: "15256aad-707d-41bf-b557-7731f74e17b7"
+}
+name: "Set Apart"
+category: "Song"
+background {
+  color {
+    alpha: 1
+  }
+}
+cue_groups {
+  group {
+    uuid {
+      string: "E32FA042-26D5-4CE6-87B8-A8FF3C582C51"
+    }
+    name: "Verse 1"
+    color {
+      green: 0.498039216
+      alpha: 1
+    }
+  }
+  cue_identifiers {
+    string: "FF6B21C6-A6BC-428C-87D5-667FB6B67E11"
+  }
+  cue_identifiers {
+    string: "9658F0D8-F573-41F2-B4CA-E84774FBF313"
+  }
+  cue_identifiers {
+    string: "F65CE383-17ED-4D1D-8C1A-F26C07109ACF"
+  }
+}
+cue_groups {
+  group {
+    uuid {
+      string: "97F75B3E-ED95-4316-974C-6ACE25CC9ED7"
+    }
+    name: "Chorus 1"
+    color {
+      red: 1
+      alpha: 1
+    }
+  }
+  cue_identifiers {
+    string: "E17DB777-B4B0-48ED-B881-7030B84855EB"
+  }
+  cue_identifiers {
+    string: "A3AEC2AA-3B89-46AD-A497-B561D6314C75"
+  }
+}
+cue_groups {
+  group {
+    uuid {
+      string: "03BB84E7-5244-42CC-B0E6-7C9F0563DD91"
+    }
+    name: "Verse 2"
+    color {
+      blue: 1
+      alpha: 1
+    }
+  }
+  cue_identifiers {
+    string: "F6042691-C246-413B-A5B6-07CE185E70F9"
+  }
+  cue_identifiers {
+    string: "28321B57-9273-4360-ADBD-4B45FDBDDEFB"
+  }
+}
+cue_groups {
+  group {
+    uuid {
+      string: "362E6F28-9E22-4A3D-A869-87A4E44602CB"
+    }
+    name: "Chorus 2"
+    color {
+      red: 1
+      green: 0.647058845
+      alpha: 1
+    }
+  }
+  cue_identifiers {
+    string: "166D83DB-D738-4B68-82A5-AAFA328AB099"
+  }
+  cue_identifiers {
+    string: "4B97D927-3F95-4D8A-BBF2-9DCF9ABD7C61"
+  }
+}
+cue_groups {
+  group {
+    uuid {
+      string: "F3E0D58B-72C2-4CD1-BD67-6BB937BFB540"
+    }
+    name: "Bridge"
+    color {
+      red: 1
+      blue: 1
+      alpha: 1
+    }
+  }
+  cue_identifiers {
+    string: "E7A7F465-9733-4AD7-81D2-D3C689E9A787"
+  }
+}
+cues {
+  uuid {
+    string: "FF6B21C6-A6BC-428C-87D5-667FB6B67E11"
+  }
+  actions {
+    uuid {
+      string: "0042a74e-7b03-4f80-afc0-95a9694e5451"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "f44a2c34-d4b9-46a6-a88d-41ea93e88743"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Back to our first love nothing between us}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Back to Your heart to the start of it all}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "b4cf9328-4fa9-42c7-a622-bf41d9917545"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "9658F0D8-F573-41F2-B4CA-E84774FBF313"
+  }
+  actions {
+    uuid {
+      string: "c67d152e-a0e7-4063-9fe5-343bb545da79"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "0241db5c-b2e8-4233-9f7a-2d89d29377d9"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Where we found You}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Out of the ashes into the fire}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "df5f5120-96fb-42a4-a033-4e429dc8c0cd"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "F65CE383-17ED-4D1D-8C1A-F26C07109ACF"
+  }
+  actions {
+    uuid {
+      string: "4c6d7412-d9ef-4b59-8f07-5531a6a2f5a9"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "d84d2afb-1ed7-41e4-a3eb-662e984afd75"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch You are refining our hearts in the flames}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Of Your presence}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "559ea22f-9c8a-4259-b32a-855f549cd565"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "E17DB777-B4B0-48ED-B881-7030B84855EB"
+  }
+  actions {
+    uuid {
+      string: "822b7a6c-473c-4704-8e0f-116a11e05602"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "8a187607-154a-47ec-a59e-678ae5cfde54"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Set apart for our God above}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Set apart for the One we love}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "d9c72521-f841-4e86-af47-7b9fccff9771"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "A3AEC2AA-3B89-46AD-A497-B561D6314C75"
+  }
+  actions {
+    uuid {
+      string: "147ef0d2-362d-4261-8e86-9a82d7ccfc8f"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "95b483b2-0c56-46ec-b54e-097ad3fa1eac"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Set apart for Your glory we are Yours Yours}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "7eed9a73-493c-45dd-a627-7bb6baa62950"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "F6042691-C246-413B-A5B6-07CE185E70F9"
+  }
+  actions {
+    uuid {
+      string: "6e85a758-d870-4e63-ab1a-5ba228879435"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "924308d2-7f5f-43e7-aa5e-581e49720d52"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Sacred and holy Your name is worthy}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Jesus awaken our hearts now to be}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "045a5093-dc7d-4c37-980d-c9574fb566f5"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "28321B57-9273-4360-ADBD-4B45FDBDDEFB"
+  }
+  actions {
+    uuid {
+      string: "37479c04-5d5d-4058-85ee-06df802841de"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "ab3f68ae-c922-492b-ac47-7b1792c20ab7"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Your revival}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "3e892269-5c84-407f-b790-c8118caef42f"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "166D83DB-D738-4B68-82A5-AAFA328AB099"
+  }
+  actions {
+    uuid {
+      string: "eb2290be-e6e3-4b56-8bee-93f5c796da95"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "210058e7-b046-4716-ae27-66218b4b4806"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Ev\'rything for You alone}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Ev\'rything to make You known}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "b5870b1a-f6bc-4e29-9378-d548c9ad74e0"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "4B97D927-3F95-4D8A-BBF2-9DCF9ABD7C61"
+  }
+  actions {
+    uuid {
+      string: "b4aae583-30cf-431d-b096-e4b85baab0e6"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "21f12e9c-ac68-45a6-a58f-6071b6a4951b"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Set apart for Your glory we are Yours Yours}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "e1735b76-1216-4e9e-bf18-fc83aacac9e7"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "E7A7F465-9733-4AD7-81D2-D3C689E9A787"
+  }
+  actions {
+    uuid {
+      string: "e2cc4072-730e-46da-81f4-59b9bd8a501a"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "e3799af4-af9b-4769-96f5-1aa5dc35756f"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Oh how great You are}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "64d4f9d5-5c71-495d-a5d6-e9c5deff70b8"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+ccli {
+  author: "Ben Cantelon ;  Luke Hellebronth ;  Nick Herbert ;  Tim Hughes"
+  song_title: "Set Apart"
+  publisher: "Ben Cantelon Designee ;  Thankyou Music ;  Tim Hughes Designee (Admin. by CopyCare Asia Ltd (Singapore Branch)) ;  (Admin. by CopyCare Asia Ltd (Singapore Branch)) ;  (Admin. by CopyCare Asia Ltd (Singapore Branch))"
+  display: true
+}
+timeline {
+}

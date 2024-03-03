@@ -1,0 +1,4583 @@
+application_info {
+  platform: PLATFORM_WINDOWS
+  platform_version {
+    major_version: 10
+    patch_version: 22621
+    build: "10.0.22621"
+  }
+  application: APPLICATION_PROPRESENTER
+  application_version {
+    major_version: 7
+    build: "7.0.0"
+  }
+}
+uuid {
+  string: "6bb20112-75d2-4f27-b80c-64dd403ed14e"
+}
+name: "Yesterday Today and Forever"
+category: "Presentation"
+background {
+  color {
+    alpha: 1
+  }
+}
+cue_groups {
+  group {
+    uuid {
+      string: "8F63591D-C9C6-467E-8A98-1148DDB8FC1D"
+    }
+    name: "Intro"
+    color {
+      red: 1
+      green: 1
+      blue: 1
+      alpha: 1
+    }
+  }
+  cue_identifiers {
+    string: "AE1FB19D-9F17-4EFC-AF85-90D87131221D"
+  }
+}
+cue_groups {
+  group {
+    uuid {
+      string: "39291ED8-4B7A-4A75-BAF2-F961F9F6C41B"
+    }
+    name: "Verse 1"
+    color {
+      green: 0.501960814
+      alpha: 1
+    }
+  }
+  cue_identifiers {
+    string: "84C259D5-0329-47CA-AEE8-FC62574E26B6"
+  }
+  cue_identifiers {
+    string: "14E50C2B-D41D-4259-A8D8-37200282864F"
+  }
+  cue_identifiers {
+    string: "BF436FF3-CCC5-4ABC-985F-827410738AFB"
+  }
+}
+cue_groups {
+  group {
+    uuid {
+      string: "83679505-D36F-4EC5-8E85-AC5523981AB7"
+    }
+    name: "Pre-Chorus"
+    color {
+      red: 0.458823532
+      green: 0.458823532
+      blue: 0.458823532
+      alpha: 1
+    }
+  }
+  cue_identifiers {
+    string: "D05EE160-3D48-4AF6-8D95-0E95104FA76C"
+  }
+  cue_identifiers {
+    string: "EEEB0A4F-C1AE-45EC-873A-07C12E390E79"
+  }
+}
+cue_groups {
+  group {
+    uuid {
+      string: "85AB115E-97DA-429C-839F-DD222210CC19"
+    }
+    name: "Chorus"
+    color {
+      red: 1
+      alpha: 1
+    }
+  }
+  cue_identifiers {
+    string: "9F7EDEF6-9E17-45E5-BD55-50139E89E4A2"
+  }
+  cue_identifiers {
+    string: "3576E14C-0980-4CA4-A3F2-934B9AE1B09F"
+  }
+  cue_identifiers {
+    string: "4AF63816-DA46-46D3-9C3E-8750EA33399D"
+  }
+  cue_identifiers {
+    string: "0CF3D5EF-D802-4BDC-A765-68E6EB64FC41"
+  }
+}
+cue_groups {
+  group {
+    uuid {
+      string: "828706CF-4689-43A4-A471-DAD2B04A5D75"
+    }
+    name: "Tag"
+    color {
+      green: 1
+      blue: 1
+      alpha: 1
+    }
+  }
+  cue_identifiers {
+    string: "97FC2CEA-A960-4259-BC8F-BEEE3FC666FF"
+  }
+}
+cue_groups {
+  group {
+    uuid {
+      string: "F6B05D41-751C-4D82-AE51-C43B9AB3678F"
+    }
+    name: "Verse 2"
+    color {
+      blue: 1
+      alpha: 1
+    }
+  }
+  cue_identifiers {
+    string: "210692FE-495F-4FB7-835E-7C31F95E980E"
+  }
+  cue_identifiers {
+    string: "AD2349A9-98D9-4805-9050-D5080D171E1B"
+  }
+  cue_identifiers {
+    string: "DE197A3C-FC73-4A36-96C9-A8D515720D39"
+  }
+  cue_identifiers {
+    string: "C0703D89-7605-4AD5-8FD0-183DA483627C"
+  }
+}
+cue_groups {
+  group {
+    uuid {
+      string: "A4A62E7C-075B-42EF-A97A-71D84E819421"
+    }
+    name: "Bridge 1"
+    color {
+      red: 1
+      blue: 1
+      alpha: 1
+    }
+  }
+  cue_identifiers {
+    string: "2ADC73F9-9CFA-43EF-9032-AD77E3B6CD89"
+  }
+  cue_identifiers {
+    string: "85A18BD1-A21C-4FF5-862F-183538D2548D"
+  }
+  cue_identifiers {
+    string: "45CB9AB8-A8E1-4118-969A-B8B4FF8A85FC"
+  }
+  cue_identifiers {
+    string: "ECA70C7E-0241-4B61-ADC5-83432871F9D2"
+  }
+}
+cues {
+  uuid {
+    string: "AE1FB19D-9F17-4EFC-AF85-90D87131221D"
+  }
+  actions {
+    uuid {
+      string: "f65cae88-3cc4-4995-9a6d-13d1017eca0f"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "cebcbe4c-430b-404c-ab1f-676ea3b81006"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch  }\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "692a9d08-2c1e-4740-bb6c-a8f733de6734"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "84C259D5-0329-47CA-AEE8-FC62574E26B6"
+  }
+  actions {
+    uuid {
+      string: "36ee6d70-ed06-42ce-b71b-1571d9c7865c"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "c537f1e2-b3f2-4b63-85f9-037628a897fa"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Lift your head lift youR eyes}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Look to The Son}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "c63b451a-2c67-49db-ae87-2fbf29bd0eed"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "14E50C2B-D41D-4259-A8D8-37200282864F"
+  }
+  actions {
+    uuid {
+      string: "2777ec46-4521-4cd2-ab6f-53daea09069d"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "85170d1e-4709-4fcf-8909-e3e3cf0f5ea8"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch In the test in the trial}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch His grace is enough}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "d515e37c-610a-4719-8f89-7e26ea0c1d67"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "BF436FF3-CCC5-4ABC-985F-827410738AFB"
+  }
+  actions {
+    uuid {
+      string: "7141199c-500a-4d52-b1b7-28b76517d408"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "330cbf71-a1a6-4d52-a285-7ebea5554fe3"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch His grace is enough}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "1d967fe0-7e92-4405-b251-935b5e4e3d2c"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "D05EE160-3D48-4AF6-8D95-0E95104FA76C"
+  }
+  actions {
+    uuid {
+      string: "694d5cab-527b-4a01-ba52-969efd55707b"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "344618fc-13f4-44b9-977d-a4651e1d1aaa"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Oh my soul}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Remember who you\'re singing to}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "32b3f93b-fa01-4ea3-8d96-14d4c9f2d41f"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "EEEB0A4F-C1AE-45EC-873A-07C12E390E79"
+  }
+  actions {
+    uuid {
+      string: "91adfa04-311c-434d-b94f-3fd0b13d24a2"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "a1cb2dcc-57c0-49e0-9393-a92f165e8271"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Take heart hold on}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Remember who you\'re singing to}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "92321c7e-8420-4530-8bd9-3fcec4f72256"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "9F7EDEF6-9E17-45E5-BD55-50139E89E4A2"
+  }
+  actions {
+    uuid {
+      string: "c37aadb5-d4b1-4fe1-9b44-614885cc65e3"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "42e4d60f-7d0c-44ee-a9ef-fc37b7c28b93"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch He\'s still the Lord Almighty}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch He\'s still the King of Kings}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "75821e70-1f1c-472c-9fbd-03501833469b"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "3576E14C-0980-4CA4-A3F2-934B9AE1B09F"
+  }
+  actions {
+    uuid {
+      string: "a935b53c-e2f2-4a9b-9ee7-60838ec2d1ea"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "85c6b868-bb42-4b47-bfe8-f13f6990c3ad"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch He\'s still the risen savior}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Reigning over everything}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "ab2d38d4-7428-4070-b94f-de0098a32186"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "4AF63816-DA46-46D3-9C3E-8750EA33399D"
+  }
+  actions {
+    uuid {
+      string: "df52e899-8c5d-4d9f-a930-0a651085b54e"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "891c58f4-c97b-477d-9899-03964b210f7d"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch His name is still the highest}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch His strength will never fail}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "c8f2a9af-8d2e-4402-8f50-1f40809acbdc"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "0CF3D5EF-D802-4BDC-A765-68E6EB64FC41"
+  }
+  actions {
+    uuid {
+      string: "7242ee06-8573-4f46-83e8-20b874b37c50"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "a29f5767-3d66-4eaf-a182-53430ea2976c"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch His Word is everlasting}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Yesterday today and forever}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "4fc7d918-ffe0-457b-bda2-03911490285b"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "97FC2CEA-A960-4259-BC8F-BEEE3FC666FF"
+  }
+  actions {
+    uuid {
+      string: "59f6d045-58ed-4d53-8093-61005474c948"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "e09c543d-468b-4c31-a139-c05a77444ef1"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Yesterday today and forever}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "031a9de1-3e81-4b30-9055-168c8c9c54b2"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "210692FE-495F-4FB7-835E-7C31F95E980E"
+  }
+  actions {
+    uuid {
+      string: "37146d4a-3456-4800-be31-52e65ff358d6"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "929f671f-9136-4585-bd18-b581988b1cc7"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Keep the faith}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Fan the flame}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "6455162a-6b59-4f5a-80a2-c2962cce907f"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "AD2349A9-98D9-4805-9050-D5080D171E1B"
+  }
+  actions {
+    uuid {
+      string: "f8542e5f-cd9e-4b6d-a962-abe5e9a6923e"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "ae77d997-37c4-4498-8590-9c74603119d7"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Don\'t give up the fight}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "cb8dccb3-3032-4f30-a0bc-59fffb92c925"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "DE197A3C-FC73-4A36-96C9-A8D515720D39"
+  }
+  actions {
+    uuid {
+      string: "dee69b92-a87b-4cd1-b1cf-a13b84faa3bf"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "d03d53c8-d84b-4f60-9889-dd05dcd7228f"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch In the night speak His name}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "f156a8c3-d770-4399-b49a-409be5d1c489"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "C0703D89-7605-4AD5-8FD0-183DA483627C"
+  }
+  actions {
+    uuid {
+      string: "b5520843-5ea5-45da-b514-2572759bf484"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "cf3f42fa-dba5-4cad-9b68-7e9182d9e06f"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\ql{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch This hope is alive}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Our hope is alive}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "ee704aaf-f9ad-48f3-87db-ec479a81674a"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "2ADC73F9-9CFA-43EF-9032-AD77E3B6CD89"
+  }
+  actions {
+    uuid {
+      string: "0130199d-01e5-4e52-b285-ef01b28b72bd"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "90f25d7c-e7e0-4d52-a164-f0c630ef1143"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Jesus }\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Jesus}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "5f92bf77-5cb4-46af-a542-fc7f767070ed"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "85A18BD1-A21C-4FF5-862F-183538D2548D"
+  }
+  actions {
+    uuid {
+      string: "8f9dbc80-bd5e-48fe-aaae-f93db7cc45b1"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "441efc52-e8d1-42da-a7eb-8ac999bbc186"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch The one I can count on}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch The one thing I\'m sure of}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "fec01a99-8efe-4a77-835b-294d0714e8d4"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "45CB9AB8-A8E1-4118-969A-B8B4FF8A85FC"
+  }
+  actions {
+    uuid {
+      string: "444efd72-14a4-4622-8865-436812937aef"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "eee3bbef-9289-4f85-9961-12372ed7394e"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Jesus}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch Jesus}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "3ee14ed3-d27b-47b2-ab32-793a75969cc7"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+cues {
+  uuid {
+    string: "ECA70C7E-0241-4B61-ADC5-83432871F9D2"
+  }
+  actions {
+    uuid {
+      string: "bf64b8a5-61f0-41ed-ac3d-99e9596683c3"
+    }
+    label {
+      color {
+        red: 1
+        green: 1
+        blue: 1
+      }
+    }
+    isEnabled: true
+    type: ACTION_TYPE_PRESENTATION_SLIDE
+    slide {
+      presentation {
+        base_slide {
+          elements {
+            element {
+              uuid {
+                string: "78efb0b4-5dcf-4c3b-bf86-06e2dcbf3bc9"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 67
+                  y: 28
+                }
+                size {
+                  width: 1200
+                  height: 180
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              stroke {
+                color {
+                  red: 1
+                  green: 1
+                  blue: 1
+                  alpha: 1
+                }
+              }
+              text {
+                shadow {
+                  angle: 315.00000247078003
+                  offset: 4.0000040662229335
+                  radius: 4
+                  color {
+                    alpha: 1
+                  }
+                  opacity: 1
+                }
+                rtf_data: "{\\rtf1\\prortf1\\ansi\\ansicpg1252\\uc1\\htmautsp\\deff2{\\fonttbl{\\f0\\fcharset0 Times New Roman;}{\\f2\\fcharset0 Georgia;}{\\f3\\fcharset0 LEMON MILK;}}{\\colortbl;\\red0\\green0\\blue0;\\red255\\green255\\blue255;\\red49\\green50\\blue97;}\\loch\\hich\\dbch\\pard\\slleading0\\plain\\ltrpar\\itap0{\\lang1033\\fs101\\outl0\\strokewidth-60\\strokec3\\f3\\cf1 \\cf1\\qc{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch The rock that I stand on}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n{\\fs95\\outl0\\strokewidth-60\\strokec3\\f3\\cf2 {\\ltrch I stake my life on Him}\\li0\\sa0\\sb0\\fi0\\qc\\par}\r\n}\r\n}"
+                vertical_alignment: VERTICAL_ALIGNMENT_MIDDLE
+              }
+            }
+            info: 2
+          }
+          elements {
+            element {
+              uuid {
+                string: "921ee401-5287-4282-aee3-4e5d47116d87"
+              }
+              name: "Default"
+              bounds {
+                origin {
+                  x: 53
+                  y: 25
+                }
+                size {
+                  width: 1252
+                  height: 192
+                }
+              }
+              rotation: 360
+              opacity: 1
+              path {
+                closed: true
+                points {
+                  point {
+                  }
+                  q0 {
+                  }
+                  q1 {
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                  }
+                  q0 {
+                    x: 1
+                  }
+                  q1 {
+                    x: 1
+                  }
+                }
+                points {
+                  point {
+                    x: 1
+                    y: 1
+                  }
+                  q0 {
+                    x: 1
+                    y: 1
+                  }
+                  q1 {
+                    x: 1
+                    y: 1
+                  }
+                }
+                points {
+                  point {
+                    y: 1
+                  }
+                  q0 {
+                    y: 1
+                  }
+                  q1 {
+                    y: 1
+                  }
+                }
+                shape {
+                  type: TYPE_RECTANGLE
+                  rounded_rectangle {
+                  }
+                }
+              }
+              fill {
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              stroke {
+                width: 2
+                color {
+                  alpha: 1
+                }
+                enable: true
+              }
+              shadow {
+                angle: 315.00000247078003
+                offset: 6.9999999999999964
+                color {
+                  alpha: 1
+                }
+                opacity: 1
+              }
+            }
+            info: 1
+          }
+          background_color {
+            alpha: 1
+          }
+          size {
+            width: 1333
+            height: 1000
+          }
+        }
+        notes {
+          rtf_data: "{\\rtf1\\ansi{\\fonttbl\\f0\\fswiss;}{\\colortbl;\\red255\\green255\\blue255;}\\f0\\fs48\\cf1\\uc0}"
+        }
+      }
+    }
+  }
+  isEnabled: true
+}
+ccli {
+  song_title: "Yesterday Today and Forever"
+}
+timeline {
+}
